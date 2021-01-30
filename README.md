@@ -1,16 +1,15 @@
 # data-structures-algorithms
 A complete study of data structures and algorithms
 
-# Big 0 Notation
+# Big O Notation
 # The 4 rules to implement
-- 
+- #### Big O notation only cares about the worst case.
 -
 -
 -
 
-</br>
+\
 
-#### Note: Big O notation only cares about the worst run-time. (Worst case scenario)
 ## O(n) Time Complexity Notation
 - ### O(n) is a linear function. The time is linear meaning that the number of inputs will result in the same number of operations
 - #### (The number of inputs increases proportionally with operations increases the same amount)

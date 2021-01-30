@@ -5,7 +5,7 @@ A complete study of data structures and algorithms
 # The 4 rules to implement
 1. #### Big O notation only cares about the worst case
 2. #### Constants do not matter, O(n/2 + 200 + 200) is equal to O(n)
-3. #### Different terms of inputs 
+3. #### Different terms of inputs have different variables
   - #### If a function has two parameters, they are considered different variables
    ````
     const compressBothBoxes(box1, box2) {

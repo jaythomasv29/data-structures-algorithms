@@ -8,7 +8,7 @@ A complete study of data structures and algorithms
 -
 -
 
-\
+<br>
 
 ## O(n) Time Complexity Notation
 - ### O(n) is a linear function. The time is linear meaning that the number of inputs will result in the same number of operations

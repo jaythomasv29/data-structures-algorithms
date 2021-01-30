@@ -3,10 +3,23 @@ A complete study of data structures and algorithms
 
 # Big O Notation
 # The 4 rules to implement
-- #### Big O notation only cares about the worst case.
--
--
--
+1. #### Big O notation only cares about the worst case
+2. #### Constants do not matter, O(n/2 + 200 + 200) is equal to O(n)
+3. #### Different terms of inputs 
+  - #### If a function has two parameters, they are considered different variables
+   ````
+    const compressBothBoxes(box1, box2) {
+      box1.forEach((box1) => {
+        console.log(box1)
+      })
+
+      box2.forEach((box2) => {
+        console.log(box2)
+      })
+    }
+    // O( n + l ) (2 different )
+  ````
+4. 
 
 
 
@@ -43,3 +56,17 @@ findNemo(array)
   }
 ````
 
+## O(n^2) Time Complexity Notation ( nested loop scenario )
+- ### O(n^2) is quadratic time, everytime the number of inputs increase, the output increases exponentially as a quadratic.
+````
+const numbers = [1,2,3,4,5,6]
+
+const logAllPairs = (numbers) => {
+  for (let i = 0; i < numbers.length; i++) {
+    for (let j = 0; j < numbers.length; j++) {
+      console.log(numbers[i], numbers[j])
+    }
+  }
+}
+logAllPairS(numbers)
+````

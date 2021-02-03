@@ -1,5 +1,9 @@
 # data-structures-algorithms
 A complete study of data structures and algorithms
+# The Pillars of Coding
+1. ## Readability
+2. ## Memory (Space complexity, Heap/Stack)
+3. ## Speed (Time complexity)
 
 # Big O Notation
 # The 4 rules to implement
@@ -19,7 +23,7 @@ A complete study of data structures and algorithms
     }
     // O( n + l ) (2 different )
   ````
-4. 
+4. #### Drop non dominants - Drop non dominant returns
 
 
 
@@ -70,3 +74,9 @@ const logAllPairs = (numbers) => {
 }
 logAllPairS(numbers)
 ````
+
+## O(n!) Time Complexity Notation ( factorial time )
+- ### The most costly in terms of time complexity. (A loop added to every element)
+
+
+## 

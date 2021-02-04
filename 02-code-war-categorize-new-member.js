@@ -13,7 +13,7 @@ const openOrSenior = (data) => {
 
 
 //using map and destructuring and parentesis to eliminate return
-openOrSenior2 = (data) => (
+const openOrSenior2 = (data) => (
   data.map(([age, handi]) => (
     (age >= 55 && handi > 7) ? 'Senior' : 'Open'
   ))
